@@ -1,0 +1,12 @@
+a{
+    text-decoration: none !important;
+    color: black;
+}
+
+.active{
+    color: darkolivegreen;
+}
+
+*{
+    box-sizing: border-box;
+}
