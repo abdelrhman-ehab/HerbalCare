@@ -1,12 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+:root
+{
+    --main-color:#203825;
+    --second-color:#5f8a61;
+    --hover-color:#5f8a61;
+    --text-color:#333333;
+    --sub-text-color:#555555;
+
+}
+body
+{
+    padding: 0 ;
+    margin: 0;
+    font-family: "Encode Sans Expanded", sans-serif;
+
+}
+
 a{
     text-decoration: none !important;
     color: black;
 }
 
 .active{
-    color: darkolivegreen;
+    color: var(--second-color);
+}
+.navIcon
+{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.aboutIcone
+{
+    color: var(--second-color);
+}
+.about-col-content h3, h2
+{
+    color: var(--text-color);
 }
 
-*{
-    box-sizing: border-box;
+.about-col-content p
+{
+    color:var(--sub-text-color);
+}
+.vision-col-content p
+{
+    color:var(--sub-text-color);
+}
+.vision-col-content h4
+{
+    color: #2e4b34;
+    font-weight: 600;
+}
+.ourvision
+{
+    background-color:#f5f3e7;
+}
+.testimon-image 
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.star-icons
+{
+    color: rgb(231, 231, 24);
+}
+.testmonial-content
+{
+    color: var(--sub-text-color);
+}
+.testmonial-content span
+{
+    color: var(--text-color);
 }
