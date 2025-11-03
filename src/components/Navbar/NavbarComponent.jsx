@@ -9,22 +9,22 @@ import { NavLink } from 'react-router-dom';
 
 export default function NavbarComponent() {
   return (
-    <div className='container-fluid py-2 px-5 position-sticky top-0 bg-white shadow'>
+    <div className='container-fluid  px-md-5 px-3 position-sticky top-0 bg-white shadow'>
       <Navbar collapseOnSelect expand="lg">
         <NavLink to={'/'} className='fw-bold fs-3 text-black'>HerbaCare</NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mx-auto mt-1 d-flex gap-3">
+          <Nav className="mx-auto mt-1 d-flex gap-4 fw-medium">
             <NavLink to={'/'}>Home</NavLink>
             <NavLink to={'herbas'}>Herbas</NavLink>
             <NavLink to={'activity'}>Activity</NavLink>
             <NavLink to={'features'}>AI Features</NavLink>
             <NavLink to={'ContactUs'}>Contact Us</NavLink>
           </Nav>
-          <Nav className='d-flex gap-3 align-items-center'>
-            <span className='fs-5'><IoNotifications /></span>
-            <NavLink to="cart" className='fs-5'><FaCartShopping /></NavLink>
-            <span className='fs-5'><FaUserCircle /></span>
+          <Nav className='d-flex gap-4 flex-row align-items-center'>
+            <span className='navIcon'><IoNotifications /></span>
+            <NavLink to="cart" className='navIcon'><FaCartShopping /></NavLink>
+            <span className='navIcon'><FaUserCircle /></span>
           </Nav>
         </Navbar.Collapse>
     </Navbar >

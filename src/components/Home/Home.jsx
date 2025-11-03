@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Landing from './../Landing/Landing';
 import AboutUs from '../AboutUs/AboutUs';
 import OurVision from '../OurVision/OurVision';
+import Testmonials from '../Testmonials/Testmonials';
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Landing />
       <AboutUs />
       <OurVision />
+      <Testmonials/>
     </div>
   )
 }
