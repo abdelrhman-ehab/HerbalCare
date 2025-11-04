@@ -12,7 +12,7 @@ export default function NavbarComponent() {
   return (
     <div className='container-fluid  px-md-5 px-3 position-sticky top-0 bg-white shadow py-1'>
       <Navbar collapseOnSelect expand="lg">
-        <NavLink to={'/'} className='fw-bold fs-3 text-black'><GiHerbsBundle className='active fs-1' /> HerbalCare</NavLink>
+        <NavLink to={'/'} className='fw-bold fs-3 logo'><GiHerbsBundle className='active fs-1' /> HerbalCare</NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto mt-1 d-flex gap-4 fw-medium">

@@ -23,7 +23,10 @@ a{
     text-decoration: none !important;
     color: black;
 }
-
+.logo
+{
+    color: var(--text-color) !important;
+}
 .active{
     color: var(--second-color);
 }
