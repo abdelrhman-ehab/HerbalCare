@@ -34,7 +34,7 @@ export default function Testmonials() {
             </div>
           </div>
           <div className="col-md-6 col-lg-4">
-            <div className="testmonial-content border rounded p-3 text-center">
+            <div className="testmonial-content border rounded p-3">
               <div className="testmonial-person  mb-3 d-flex align-items-center gap-3">
                 <img
                   src={person3}
@@ -59,7 +59,7 @@ export default function Testmonials() {
             </div>
           </div>
           <div className="col-md-6 col-lg-4">
-            <div className="testmonial-content text-center border rounded p-3">
+            <div className="testmonial-content border rounded p-3">
                             <div className="testmonial-person  mb-3 d-flex align-items-center gap-3">
                 <img
                   src={person2}
