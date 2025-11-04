@@ -36,9 +36,17 @@ a{
 {
     color: var(--second-color);
 }
-.about-col-content h3, h2
+.about-col-content h3, h2, h3
 {
     color: var(--text-color);
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+p{
+    font-size: 1rem !important;
 }
 
 .about-col-content p
@@ -62,6 +70,8 @@ a{
 {
     width: 70px;
     height: 70px;
+    object-fit: cover;
+    object-position: 50% 50%;
     border-radius: 50%;
 }
 .star-icons
@@ -76,3 +86,18 @@ a{
 {
     color: var(--text-color);
 }
+
+
+.playStoreImg{
+    width: 200px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.footer-section ul {
+  transition: all 0.3s ease;
+}
+.footer-title:hover h5 {
+  color: var(--hover-color); /* Bootstrap green */
+}
+
