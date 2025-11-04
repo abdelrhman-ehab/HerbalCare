@@ -6,9 +6,9 @@ import OurVision3 from "../../assets/pexels-mareefe-672046.jpg";
 export default function Herbas() {
   return (
     <>
-      <div className="container-fluid second-nav px-lg-5 px-md-4 px-3">
-        <div className="categories mb-2 pt-2">
-          <ul className='list-unstyled d-flex gap-1 overflow-x-auto flex-nowrap'>
+      <div className="container-fluid second-nav px-lg-5 px-md-4 px-3 ">
+        <div className="categories  py-3">
+          <ul className='list-unstyled d-flex gap-2 overflow-x-auto flex-nowrap'>
             <li className='pointer cat'>Adaptogens</li>
             <li className='pointer cat'>Anti-inflammatory herbs</li>
             <li className='pointer cat'>Antioxidant herbs</li>
